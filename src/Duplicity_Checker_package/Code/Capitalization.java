@@ -195,24 +195,24 @@ public class Capitalization extends Panel_BackButton_Template {
         }
     }
 
-   private String getCapitalizeString(String str) {
+    private String getCapitalizeString(String str) {
 
-      char[] new_chars = str.replaceAll("[,.!?;:]", "$0").toCharArray();
-      for(int i = 0, j = 0 ; i<new_chars.length-1;i++){
-           if(!((new_chars[i]==' ') && ( new_chars[i+1]==' ')))
-           {
-               new_chars[j] = new_chars[i];
-            j++;
-           }
-           else if(i==new_chars.length-1){
-               new_chars[j]=new_chars[i];
-           }
-       }
-      return new String(handleCharsArray(new_chars));
-   }
+        char[] new_chars = str.replaceAll("[,.!?;:]", "$0").toCharArray();
+//      for(int i = 0, j = 0 ; i<new_chars.length-1;i++){
+//           if(!((new_chars[i]==' ') && ( new_chars[i+1]==' ')))
+//           {
+//               new_chars[j] = new_chars[i];
+//            j++;
+//           }
+//           else if(i==new_chars.length-1){
+//               new_chars[j]=new_chars[i];
+//           }
+//       }
+        return new String(handleCharsArray(new_chars));
+    }
 
-   private char[] handleCharsArray(char[] chars) {
-       System.out.println("chars  "+chars.length);
+    private char[] handleCharsArray(char[] chars) {
+        System.out.println("chars  "+chars.length);
         chars[0] = Character.toUpperCase(chars[0]);
 
         for (int i = 0; i < chars.length; i++) {
@@ -223,25 +223,58 @@ public class Capitalization extends Panel_BackButton_Template {
                 for(i=0;i<chars.length-1;i++){
                     if ((chars[i] == '!') || (chars[i] == '?') || (chars[i] == '.')|| (chars[i] == ':'))
                     {
-                        if ((i < chars.length - 2) &&(chars[i + 1] == ' ')&&(chars[i+2]!='\n'))
+                        if ((i < chars.length - 5) &&(chars[i + 1] == ' ')&&(chars[i+2]==' ')&&(chars[i+3]==' ')&&(chars[i+4]==' ')&&(chars[i+5]!='\n'&&chars[i+5]!=' '))
+                        {
+                            i+= 5;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+                        else if ((i < chars.length - 4) &&(chars[i + 1] == ' ')&&(chars[i+2]==' ')&&(chars[i+3]==' ')&&(chars[i+4]!='\n'&&chars[i+4]!=' '))
+                        {
+                            i+= 4;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+
+                        else if ((i < chars.length - 3) &&(chars[i + 1] == ' ')&&(chars[i+2]==' ')&&(chars[i+3]!='\n'&&chars[i+3]!=' '))
+                        {
+                            i+= 3;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+                        else if ((i < chars.length - 2) &&(chars[i + 1] == ' ')&&(chars[i+2]!='\n' && chars[i+2]!=' '))
                         {
                             i+= 2;
                             chars[i] = Character.toUpperCase(chars[i]);
                         }
 
-                        else if((i<chars.length-1)&&((chars[i+1]=='\n')&&(chars[i+2]!='\t'))){
+                        else if((i<chars.length-2)&&(chars[i+1]=='\n')&&(chars[i+2]!=' ')){
                             i+=2;
                             chars[i] = Character.toUpperCase(chars[i]);
                         }
+
+                        else if((i<chars.length-3)&&(chars[i+1]=='\n')&&(chars[i+2]==' ') &&(chars[i+3]!=' ')){
+                            i+=3;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+                        else if((i<chars.length-4)&&(chars[i+1]=='\n')&&(chars[i+2]==' ') &&(chars[i+3]==' ') && (chars[i+4]!=' ')){
+                            i+=4;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+
+                        else if ((i < chars.length - 5) && (chars[i+1] == '\n') && (chars[i+2]==' ')&& (chars[i+3]==' ')&& (chars[i+4]==' ') && (chars[i+5]!=' ')){
+                            i+=5;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+                        else if ((i < chars.length - 6) && (chars[i+1] == '\n') && (chars[i+2]==' ')&& (chars[i+3]==' ')&& (chars[i+4]==' ') && (chars[i+5]==' ') && (chars[i+6]!=' ')){
+                            i+=6;
+                            chars[i] = Character.toUpperCase(chars[i]);
+                        }
+
                         else if ((i < chars.length - 2) && (chars[i+1] == ' ') && (chars[i+2]=='\n')){
                             i+=3;
                             chars[i] = Character.toUpperCase(chars[i]);
                         }
 
-                        else if ((i < chars.length - 4) && (chars[i+1] == '\n') && (chars[i+2]==' ')&& (chars[i+3]==' ')&& (chars[i+4]==' ')){
-                            i+=5;
-                            chars[i] = Character.toUpperCase(chars[i]);
-                        }
+
+
                         else {
                             chars[i + 1] = Character.toUpperCase(chars[i + 1]);
                         }
@@ -262,27 +295,27 @@ public class Capitalization extends Panel_BackButton_Template {
         return chars;
     }
 
-public void checking_extension() throws IOException {
-    FileExtension = file.getName();
-    extension = "";
-    int i = FileExtension.lastIndexOf('.');
-    if (i >= 0) {
-        extension = FileExtension.substring(i+1);
-    }
-    if(extension.equals("docx")){
-        XWPFDocument docx = new XWPFDocument(new FileInputStream(file));
-        XWPFWordExtractor extract = new XWPFWordExtractor(docx);
-        text.setText(extract.getText());
-    }
+    public void checking_extension() throws IOException {
+        FileExtension = file.getName();
+        extension = "";
+        int i = FileExtension.lastIndexOf('.');
+        if (i >= 0) {
+            extension = FileExtension.substring(i+1);
+        }
+        if(extension.equals("docx")){
+            XWPFDocument docx = new XWPFDocument(new FileInputStream(file));
+            XWPFWordExtractor extract = new XWPFWordExtractor(docx);
+            text.setText(extract.getText());
+        }
 
-    else{
-        Object[] options = {"Ok"};
-        int n = JOptionPane.showOptionDialog(null, "Choose docx file only", "Warning", JOptionPane.OK_OPTION, JOptionPane.NO_OPTION, null, options, options[0]);
-        if (n == JOptionPane.OK_OPTION) {
-            sound_button.playsound();
+        else{
+            Object[] options = {"Ok"};
+            int n = JOptionPane.showOptionDialog(null, "Choose docx file only", "Warning", JOptionPane.OK_OPTION, JOptionPane.NO_OPTION, null, options, options[0]);
+            if (n == JOptionPane.OK_OPTION) {
+                sound_button.playsound();
+            }
         }
     }
-}
 
     public void save_as_docx(){
         try {
