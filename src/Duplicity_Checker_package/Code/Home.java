@@ -74,13 +74,6 @@ public class Home extends JFrame {
         aboutus_button.setBounds(55, 530, aboutus_img.getIconWidth(), aboutus_img.getIconHeight());
         container.add(aboutus_button);
 
-        /*guideline_img = new ImageIcon(getClass().getResource("Picture//Guideline_image.png"));
-        JButton guide_button = new JButton(guideline_img);
-        guide_button.setBackground(new Color(255, 255, 255, 255));
-        guide_button.setBorder(null);
-        guide_button.setBounds(350, 465, guideline_img.getIconWidth(), guideline_img.getIconHeight());
-        container.add(guide_button);*/
-
         guideline_img = new ImageIcon(getClass().getResource("Picture//Guideline_image.png"));
         JButton guide_button = new JButton(guideline_img);
         guide_button.setBackground(new Color(255, 255, 255, 255));
@@ -89,6 +82,7 @@ public class Home extends JFrame {
         container.add(guide_button);
 
     try {
+        // On/Off button sound
         Scanner scanner = new Scanner(new File("value3.txt"));
         while (scanner.hasNextInt()) {
             value_of_text_file = scanner.nextInt();
@@ -107,7 +101,6 @@ public class Home extends JFrame {
     }
 
         duplicity_button.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent ea) {
 
@@ -118,12 +111,12 @@ public class Home extends JFrame {
                     int n = JOptionPane.showOptionDialog(null, "How do you want to check ?", "Confirmation", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, choices, defaultChoice);
                     if (n == JOptionPane.YES_OPTION) {
                         sound_button.playsound();
-                        Multiple_with_CTRL_A LF = new Multiple_with_CTRL_A();
+                        Duplicity_Random_File LF = new Duplicity_Random_File();
                         LF.setVisible(true);
                         dispose();
                     } else if (n == JOptionPane.NO_OPTION) {
                         sound_button.playsound();
-                        Multiple_by_selecting_folder_sorting LF = new Multiple_by_selecting_folder_sorting();
+                        Duplicity_Folder LF = new Duplicity_Folder();
                         LF.setVisible(true);
                         dispose();
                     } else {
@@ -135,7 +128,6 @@ public class Home extends JFrame {
             }
         });
         capitalization_button.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent ea) {
 
@@ -156,9 +148,7 @@ public class Home extends JFrame {
 
             @Override
             public void actionPerformed(ActionEvent ea) {
-
                 sound_button.playsound();
-
                 Spell_Check LF = null;
                 try {
                     LF = new Spell_Check();
@@ -179,6 +169,7 @@ public class Home extends JFrame {
                 dispose();
             }
         });
+
         guide_button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

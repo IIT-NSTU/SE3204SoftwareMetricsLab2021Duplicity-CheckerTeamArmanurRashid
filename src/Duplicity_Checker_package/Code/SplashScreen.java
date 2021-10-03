@@ -67,7 +67,7 @@ public class SplashScreen extends JFrame {
         developer_message.setFont(new Font("arial", Font.BOLD, 15));
         frame.add(developer_message);
     }
-
+//Loading Bar
     public void runningPBar() {
         int i = 0;
 
@@ -85,7 +85,6 @@ public class SplashScreen extends JFrame {
                     Home home_page = new Home();
                     home_page.setVisible(true);
                 }
-
             } catch (Exception e) {
                 e.printStackTrace();
             }

@@ -1,84 +1,80 @@
 package Duplicity_Checker_package.Code;
 
-import com.inet.jortho.FileUserDictionary;
-import com.inet.jortho.SpellChecker;
-import com.lowagie.text.Document;
-import com.lowagie.text.Paragraph;
-import com.lowagie.text.pdf.PdfWriter;
 import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
-import org.apache.poi.xwpf.usermodel.XWPFParagraph;
-import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 import javax.swing.*;
+import javax.swing.text.Highlighter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.util.Arrays;
+import java.util.Collections;
 
-public class Spell_Check extends Panel_BackButton_Template{
+public class Spell_Check extends Panel_BackButton_Template {
 
-    private ImageIcon file_read_img,save_button_img;
+    private JButton file_read_button , file_check_button;
     private JTextArea text;
-    private JScrollPane scrolltext ;
-    private JButton save_button,file_read_button;
+    private JScrollPane read_scrolltext1 ;
+    private ImageIcon file_read_img , file_check_img , save_button_img;
 
-    ButtonSound sound_button = new ButtonSound();
-
-    String FileExtension;
-    String extension;
-    File file;
+    char[] Alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+    char[] chars;
+    char alphabet;
+    int i,kk;
+    int error_counter=0;
+    String Given_Word,FileExtension,extension;
+    File file,F1;
     String save_filename;
     JFileChooser savefile;
-    String lowercase_text;
-    Spell_Check() throws IOException {
+    ButtonSound sound_button = new ButtonSound();
+
+    Spell_Check()  throws IOException {
 
         App_Icon();
         super.frame();
+        super.setTitle("Spell Checker");
         super.setContainer();
         super.setPanel();
         super.BackButton();
-        button();
-        design();
-    }
 
-    public void button() {
-        file_read_img = new ImageIcon(getClass().getResource("Picture//ReadFile2.png"));
-        file_read_button = new JButton(file_read_img);
-        file_read_button.setBackground(new Color(54, 25, 189, 255));
+        file_read_img = new ImageIcon (getClass().getResource("Picture//ReadFile2.png"));
+        JButton file_read_button = new JButton(file_read_img);
+        file_read_button.setBackground(new Color(28, 73, 102));
         file_read_button.setBorder(null);
-        file_read_button.setBounds(45, 20, file_read_img.getIconWidth(), file_read_img.getIconHeight());
-        background.add(file_read_button);
+        file_read_button.setBounds(40,19,file_read_img.getIconWidth(),file_read_img.getIconHeight());
+        jpanel.add(file_read_button);
 
-        save_button_img = new ImageIcon(getClass().getResource("Picture//Save_button.png"));
-        save_button = new JButton(save_button_img);
-        save_button.setBackground(new Color(160, 88, 167, 255));
+        file_check_img = new ImageIcon (getClass().getResource("Picture//Check.png"));
+        JButton file_check_button = new JButton(file_check_img);
+        file_check_button.setBackground(new Color(28, 73, 102));
+        file_check_button.setBorder(null);
+        file_check_button.setBounds(482,575,file_check_img.getIconWidth(),file_check_img.getIconHeight());
+        jpanel.add(file_check_button);
+
+        save_button_img = new ImageIcon (getClass().getResource("Picture//Save_button.png"));
+        JButton save_button = new JButton(save_button_img);
+        save_button.setBackground(new Color(28, 73, 102));
         save_button.setBorder(null);
-        save_button.setBounds(487, 520, save_button_img.getIconWidth(), save_button_img.getIconHeight());
-        background.add(save_button);
-    }
+        save_button.setBounds(40,575,save_button_img.getIconWidth(),save_button_img.getIconHeight());
+        save_button.setEnabled(false);
+        jpanel.add(save_button);
 
-    public void design(){
         text = new JTextArea();
         text.setLineWrap(true);
         text.setWrapStyleWord(true);
+        text.setEditable(false);
         text.setBorder(BorderFactory.createLineBorder(new Color(0,0,0,255)));
-        background.add(text);
+        text.setFont(new Font("Times new Roman",Font.BOLD,16));
+        jpanel.add(text);
 
-        scrolltext = new JScrollPane(text, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-        scrolltext.setBounds(40,60,540,450);
-        background.add(scrolltext);
+        read_scrolltext1 = new JScrollPane(text, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        read_scrolltext1.setBounds(40,60,540,500);
+        jpanel.add(read_scrolltext1);
 
-        SpellChecker.setUserDictionaryProvider(new FileUserDictionary());
-        SpellChecker.registerDictionaries(null, null);
-        SpellChecker.register(text);
-    //    SpellChecker.register(lowercase_text);
-
+        //Back button
         back_button.addActionListener(new ActionListener(){
-
             @Override
             public void actionPerformed (ActionEvent ea){
                 sound_button.playsound();
@@ -88,16 +84,20 @@ public class Spell_Check extends Panel_BackButton_Template{
             }
         });
 
+        //save button
         save_button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 sound_button.playsound();
+
+                //Checking whether the text is not empty or not
                 if (text.getText().length() > 0) {
+
                     save_filename = JOptionPane.showInputDialog("Write New File Name");
                     savefile = new JFileChooser();
                     savefile.setDialogTitle("Choose Directory");
                     savefile.setSelectedFile(new File(save_filename));
-                    //      BufferedWriter writer;
+
                     int sf = savefile.showSaveDialog(null);
                     if (sf == JFileChooser.APPROVE_OPTION) {
                         sound_button.playsound();
@@ -106,12 +106,19 @@ public class Spell_Check extends Panel_BackButton_Template{
                             Object[] choices = {"Docx", "Pdf", "Cancel"};
                             Object defaultChoice = choices[0];
                             int n = JOptionPane.showOptionDialog(null, "Select Format", "Format Choice", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, choices, defaultChoice);
+
+                            //Save file as docx
                             if (n == JOptionPane.YES_OPTION) {
                                 sound_button.playsound();
-                                save_as_docx();
-                            } else if (n == JOptionPane.NO_OPTION) {
+                                save_file save_file = new save_file();
+                                save_file.save_as_docx(savefile.getSelectedFile(),text.getText());
+                            }
+
+                            //Save file as pdf
+                            else if (n == JOptionPane.NO_OPTION) {
                                 sound_button.playsound();
-                                save_as_pdf();
+                                save_file save_file = new save_file();
+                                save_file.save_as_pdf(savefile.getSelectedFile(),text.getText());
 
                             } else {
                                 sound_button.playsound();
@@ -133,89 +140,93 @@ public class Spell_Check extends Panel_BackButton_Template{
             }
         });
 
+        //File read
         file_read_button.addActionListener(new ActionListener(){
 
             @Override
             public void actionPerformed (ActionEvent ea){
+                file_read file_read = new file_read();
+                file_read.fileRead(sound_button,file,text);
+            }
+        });
 
-                sound_button.playsound();
+        //File check
+        file_check_button.addActionListener(new ActionListener(){
 
-                JFileChooser chooser = new JFileChooser();
-                int returnValue=chooser.showOpenDialog(null);
-                file = chooser.getSelectedFile();
-                if(returnValue == JFileChooser.APPROVE_OPTION){
-                    try {
-                        checking_extension();
+            @Override
+            public void actionPerformed (ActionEvent ea) {
+
+                try {
+                    sound_button.playsound();
+                    error_counter=0;
+                    Highlighter hilite = text.getHighlighter();
+                    hilite.removeAllHighlights();
+
+                    String input_string = text.getText();
+                    //split the text into sentences
+                    String[] input_sentence = input_string.split("[\\s]*[-.,!?:)\"][\\s]*");
+
+                    for (i = 0; i < input_sentence.length; i++) {
+                        //Split the sentences into words
+                        String[] input_word = input_sentence[i].toLowerCase().split("\\s+");
+
+                        for ( kk = 0; kk < input_word.length; kk++) {
+                            //split the words into char
+                            char[] chars = input_word[kk].toLowerCase().toCharArray();
+
+                            for (int k = 0; k < chars.length; k++) {
+                                //Looking for first char of the word
+                                if (k == 0) {
+                                    for (int aa = 0; aa < Alphabet.length; aa++) {
+                                        if (chars[0] == Alphabet[aa]) {
+                                            alphabet = Alphabet[aa];
+                                            //path of stored_word files
+                                            F1 = new File("Words\\" + Alphabet[aa] + ".docx");
+                                            Given_Word = input_word[kk];
+                                            check_Correct_word(save_button);
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
-                    catch (IOException e) {
-                        e.printStackTrace();
+                    //if any error remaining in Jtextarea disable save button
+                    if(error_counter>0){
+                        save_button.setEnabled(false);
                     }
+                    else if(error_counter==0) {save_button.setEnabled(true);}
+                    text.setEditable(true);
                 }
-
-                else{
-                    Object[] options = {"Ok"};
-                    int n = JOptionPane.showOptionDialog(null, "No File Selected", "Warning", JOptionPane.OK_OPTION, JOptionPane.NO_OPTION, null, options, options[0]);
-                    if (n == JOptionPane.OK_OPTION) {
-
-                        sound_button.playsound();
-                    }
+                catch (Exception e){
                 }
-                SpellChecker.register(text);
             }
         });
     }
 
-    public void checking_extension() throws IOException {
-        FileExtension = file.getName();
-        extension = "";
-        int i = FileExtension.lastIndexOf('.');
-        if (i >= 0) {
-            extension = FileExtension.substring(i+1);
-        }
-        if(extension.equals("docx")){
-         XWPFDocument docx = new XWPFDocument(new FileInputStream(file));
-         XWPFWordExtractor extract = new XWPFWordExtractor(docx);
-     //    text.setText(extract.getText().toLowerCase());
-         text.setText(extract.getText());
-           // lowercase_text = extract.getText().toLowerCase();
-        }
+    public void check_Correct_word(JButton save_button){
+        try{
+            XWPFDocument Stored_Docx = new XWPFDocument(new FileInputStream(F1));
+            XWPFWordExtractor Stored_Text = new XWPFWordExtractor(Stored_Docx);
+            String Stored_String = Stored_Text.getText();
+            String[] Stored_Sentence = Stored_String.split("[\\s]*[.][\\s]*");
+            String[] Stored_Word = null;
 
-        else{
-         Object[] options = {"Ok"};
-         int n = JOptionPane.showOptionDialog(null, "Choose docx or pdf file only", "Warning", JOptionPane.OK_OPTION, JOptionPane.NO_OPTION, null, options, options[0]);
-         if (n == JOptionPane.OK_OPTION) {
-             sound_button.playsound();
-         }
-    }
-}
+            //Split the stored sentence into words
+            highlight_text highlight_text = new highlight_text();
+            for (int yy = 0; yy < Stored_Sentence.length; yy++) {
+                Stored_Word = Stored_Sentence[yy].toLowerCase().split("\\s+");
+            }
 
-    public void save_as_docx(){
-         try {
-              XWPFDocument docx = new XWPFDocument();
-              FileOutputStream out = new FileOutputStream(savefile.getSelectedFile()+".docx");
-              XWPFParagraph n = docx.createParagraph();
-              XWPFRun run = n.createRun();
-              run.setText(text.getText());
-              docx.write(out);
-              out.close();
-              JOptionPane.showMessageDialog(null,"File saved in "+savefile.getSelectedFile()+".docx","File saved",JOptionPane.INFORMATION_MESSAGE);
-         }
-         catch (IOException ioException) {
-              ioException.printStackTrace();
-         }
-    }
+            //Highlighting wrong word
+            if (Collections.binarySearch(Arrays.asList(Stored_Word),Given_Word)< 0) {
+                error_counter++;
+                highlight_text.highlight(text,Given_Word);
+            }
 
-    public void save_as_pdf(){
-        Document document = new Document();
-        try {
-            PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(savefile.getSelectedFile() + ".pdf"));
-            document.open();
-            document.add(new Paragraph(text.getText()));
-            document.close();
-            writer.close();
-            JOptionPane.showMessageDialog(null, "File saved in "+savefile.getSelectedFile() + ".pdf", "File saved", JOptionPane.INFORMATION_MESSAGE);
-        } catch (Exception exception) {
-            exception.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -225,7 +236,7 @@ public class Spell_Check extends Panel_BackButton_Template{
     }
 
     public static void main(String[] args) throws IOException {
-        Spell_Check sp = new Spell_Check();
-        sp.setVisible(true);
+        Spell_Check cp = new Spell_Check();
+        cp.setVisible(true);
     }
 }
