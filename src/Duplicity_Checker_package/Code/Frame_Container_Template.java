@@ -9,7 +9,6 @@ public class Frame_Container_Template extends JFrame {
     public void frame() {
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setBounds(350, 25, 650, 680);
-        this.setTitle("Duplicity Checker");
         this.setResizable(false);
     }
     public void setContainer(){

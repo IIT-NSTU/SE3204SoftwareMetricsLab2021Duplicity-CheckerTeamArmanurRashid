@@ -7,6 +7,7 @@ public class Sorting_result {
     float temp;
     int p, q;
 
+    //sorting filename according to the maximum matching line
     public Object[] sort(String[] FILENAME3, String[] FILENAME4, float[] matching_line_number, float[] result, int result_counter) throws IOException {
         for (p = 0; p < result_counter; p++) {
             for (q = p + 1; q < result_counter; q++) {

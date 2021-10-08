@@ -9,6 +9,7 @@ public class ButtonSound extends JFrame {
 public static int OFFvariable =0;
 public static int ONvariable =0;
         URL sound = getClass().getResource("button-16.wav");
+
     public void playsound() {
         if(OFFvariable == 0 && ONvariable==1){}
         else {

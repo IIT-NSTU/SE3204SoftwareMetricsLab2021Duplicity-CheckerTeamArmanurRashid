@@ -25,7 +25,7 @@ public class User_GuideLines extends Panel_BackButton_Template {
         Heading_area.setBounds(50,55,535,40);
         Heading_area.setBackground(Color.WHITE);
         Heading_area.setBorder(BorderFactory.createLineBorder(new Color(0,0,0,255)));
-        super.background.add(Heading_area);
+        super.jpanel.add(Heading_area);
         Heading_area.append("                    User Guidelines");
 
         JTextArea guidelines_area = new JTextArea();
@@ -33,7 +33,7 @@ public class User_GuideLines extends Panel_BackButton_Template {
         guidelines_area.setFont(new Font("Calibari",Font.BOLD,16));
         guidelines_area.setBounds(50,98,535,500);
         guidelines_area.setBorder(BorderFactory.createLineBorder(new Color(0,0,0,255)));
-        super.background.add(guidelines_area);
+        super.jpanel.add(guidelines_area);
         guidelines_area.append("\n"+"    **  You can select only docx or pdf files in 'Duplicity Check' option."+"\n"+"         In other options you can read only Docx files."+"\n\n");
         guidelines_area.append("    **  This application is only applicable for English language."+"\n\n");
         guidelines_area.append("    **  In Duplicity check User Interface, left textarea is for comparable"+"\n"+"         files and right textarea is for comparing files. Which is/are "+"\n"+
@@ -46,7 +46,6 @@ public class User_GuideLines extends Panel_BackButton_Template {
                     "         you have to press ctrl + a ."+"\n\n");
 
     back_button.addActionListener(new ActionListener(){
-
         @Override
             public void actionPerformed (ActionEvent ea){
                 sound_button.playsound();
