@@ -1,0 +1,456 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Long Statement,The length of the statement "Developers_Details.append(" Students of -" + "\n" + " IIT 2nd Batch"+ "\n"+ " Noakhali Science and Technology University"+ "\n");" is 129.,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Long Statement,The length of the statement "Supervisor_details.append("\n" + " Falguni Roy" + "\n"+ " Assistant Professor` IIT"+ "\n"+ " Noakhali Science and Technology University"+ "\n"+ " Email : falguniroy.iit@gmail.com"+ "\n\n");" is 189.,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 30,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 45,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 58,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 535,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 40,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 255,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 17,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 45,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 100,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 535,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 300,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 255,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 30,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 45,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 402,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 535,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 40,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 255,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 17,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 45,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 444,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 535,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 130,20
+SPL_Sep3,Duplicity_Checker_package.Code,Aboutus,design,Magic Number,The method contains a magic number: 255,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 5,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 6,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 623,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 630,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 28,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 73,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,setPanel,Magic Number,The method contains a magic number: 102,20
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Long Statement,The length of the statement "comparable_file_scrolltext=new JScrollPane(comparable_file_textarea`JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED`JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);" is 149.,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Long Statement,The length of the statement "comparing_file_scrolltext=new JScrollPane(comparing_file_textarea`JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED`JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);" is 147.,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Long Statement,The length of the statement "scrolltext3=new JScrollPane(result_textarea`JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED`JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);" is 125.,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 15,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 255,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 50,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 52,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 250,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 300,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 255,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 15,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 340,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 52,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 250,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 300,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 255,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 15,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 50,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 394,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 540,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,userinterface,Magic Number,The method contains a magic number: 200,28
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 28,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 73,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 102,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 50,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 15,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 28,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 73,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 102,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 340,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 15,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 28,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 73,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 102,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 488,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 359,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 28,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 73,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 102,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 550,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 8,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 28,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 73,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 102,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 493,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 598,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 2,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 3,66
+SPL_Sep3,Duplicity_Checker_package.Code,Basic_Frame_Duplicity,buttons,Magic Number,The method contains a magic number: 4,66
+SPL_Sep3,Duplicity_Checker_package.Code,ButtonSound,playsound,Empty catch clause,The method has an empty catch block.,13
+SPL_Sep3,Duplicity_Checker_package.Code,ButtonSound,playsound,Magic Number,The method contains a magic number: 1000,13
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Complex Method,Cyclomatic complexity of the method is 8,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Long Method,The method has 125 lines of code.,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Long Statement,The length of the statement "result_scrolltext=new JScrollPane(result_textarea`JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED`JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);" is 131.,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Nothing to Check"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 28,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 73,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 102,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 40,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 19,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 28,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 73,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 102,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 482,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 295,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 28,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 73,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 102,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 485,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 575,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 255,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 16,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 40,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 53,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 540,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 230,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 255,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 16,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 40,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 335,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 540,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,Capitalization,Magic Number,The method contains a magic number: 230,23
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,89
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,89
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Nothing to Check"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,144
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (chars[i] == '!') || (chars[i] == '?') || (chars[i] == '.')|| (chars[i] == ':') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 5) && (chars[i + 1] == '\n') && (chars[i + 2] == '\n')&& (chars[i + 3] == '\n')&& (chars[i + 4] == '\n')&& (chars[i + 5] != ' ' && chars[i + 5] != '\n') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 4) && (chars[i + 1] == '\n') && (chars[i + 2] == '\n')&& (chars[i + 3] == '\n')&& (chars[i + 4] != ' ' && chars[i + 4] != '\n') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 3) && (chars[i + 1] == '\n') && (chars[i + 2] == '\n')&& (chars[i + 3] != ' ' && chars[i + 3] != '\n') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 5) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == ' ')&& (chars[i + 5] != '\n' && chars[i + 5] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 4) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] != '\n' && chars[i + 4] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 3) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] != '\n' && chars[i + 3] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 2) && (chars[i + 1] == ' ') && (chars[i + 2] != '\n' && chars[i + 2] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 2) && (chars[i + 1] == '\n') && (chars[i + 2] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 3) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 4) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 5) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == ' ')&& (chars[i + 5] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 6) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == ' ')&& (chars[i + 5] == ' ')&& (chars[i + 6] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 3) && (chars[i + 1] == ' ') && (chars[i + 2] == '\n')&& (chars[i + 3] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 4) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == '\n')&& (chars[i + 4] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (i < chars.length - 5) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == '\n')&& (chars[i + 5] != ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression (chars[i] == ' ') && (chars[i + 1] == 'i') && (chars[i + 2] == ' ') is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Conditional,The conditional expression ((chars[i] == 'm') && (chars[i + 1] == 'r') && (chars[i + 2] == '.')) || ((chars[i] == 'd') && (chars[i + 1] == 'r') && (chars[i + 2] == '.')) || ((chars[i] == 'm') && (chars[i + 1] == 'r') && (chars[i + 2] == 's')&& (chars[i + 3] == '.')) is complex.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Complex Method,Cyclomatic complexity of the method is 20,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "if ((i < chars.length - 5) && (chars[i + 1] == '\n') && (chars[i + 2] == '\n')&& (chars[i + 3] == '\n')&& (chars[i + 4] == '\n')&& (chars[i + 5] != ' ' && chars[i + 5] != '\n')) {" is 179.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 4) && (chars[i + 1] == '\n') && (chars[i + 2] == '\n')&& (chars[i + 3] == '\n')&& (chars[i + 4] != ' ' && chars[i + 4] != '\n')) {" is 159.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 3) && (chars[i + 1] == '\n') && (chars[i + 2] == '\n')&& (chars[i + 3] != ' ' && chars[i + 3] != '\n')) {" is 134.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 5) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == ' ')&& (chars[i + 5] != '\n' && chars[i + 5] != ' ')) {" is 180.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 4) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] != '\n' && chars[i + 4] != ' ')) {" is 156.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 3) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] != '\n' && chars[i + 3] != ' ')) {" is 132.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 4) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] != ' ')) {" is 133.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 5) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == ' ')&& (chars[i + 5] != ' ')) {" is 157.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 6) && (chars[i + 1] == '\n') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == ' ')&& (chars[i + 5] == ' ')&& (chars[i + 6] != ' ')) {" is 181.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 4) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == '\n')&& (chars[i + 4] != ' ')) {" is 133.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if ((i < chars.length - 5) && (chars[i + 1] == ' ') && (chars[i + 2] == ' ')&& (chars[i + 3] == ' ')&& (chars[i + 4] == '\n')&& (chars[i + 5] != ' ')) {" is 157.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Long Statement,The length of the statement "else if (((chars[i] == 'm') && (chars[i + 1] == 'r') && (chars[i + 2] == '.')) || ((chars[i] == 'd') && (chars[i + 1] == 'r') && (chars[i + 2] == '.')) || ((chars[i] == 'm') && (chars[i + 1] == 'r') && (chars[i + 2] == 's')&& (chars[i + 3] == '.'))) {" is 251.,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 6,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 6,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 6,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 4,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 5,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 2,184
+SPL_Sep3,Duplicity_Checker_package.Code,Capitalization,handleCharsArray,Magic Number,The method contains a magic number: 3,184
+SPL_Sep3,Duplicity_Checker_package.Code,check_extension,checking_extension,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Choose docx file only"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 143.,12
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Complex Method,Cyclomatic complexity of the method is 26,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Empty catch clause,The method has an empty catch block.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Long Method,The method has 184 lines of code.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Nothing to Check"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,51
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,63
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,63
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Complex Method,Cyclomatic complexity of the method is 8,115
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,115
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Complex Method,Cyclomatic complexity of the method is 8,173
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,173
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Empty catch clause,The method has an empty catch block.,230
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Nothing to Check"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,230
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,ok_button_sound,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,271
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Complex Method,Cyclomatic complexity of the method is 12,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Empty catch clause,The method has an empty catch block.,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Magic Number,The method contains a magic number: 100,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Magic Number,The method contains a magic number: 60,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Magic Number,The method contains a magic number: 60,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Magic Number,The method contains a magic number: 100,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,single_files,Magic Number,The method contains a magic number: 2,284
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,multilple_files,Complex Method,Cyclomatic complexity of the method is 11,357
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,multilple_files,Magic Number,The method contains a magic number: 100,357
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,multilple_files,Magic Number,The method contains a magic number: 60,357
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,multilple_files,Magic Number,The method contains a magic number: 60,357
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,multilple_files,Magic Number,The method contains a magic number: 100,357
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,display_percentage_after_sorting,Long Statement,The length of the statement "result_textarea.append(FILENAME3[aa] + " matched " + matching_line_number[aa]+ " line and "+ df.format(result[aa])+ per+ " with "+ FILENAME4[aa]+ "\n\n");" is 154.,424
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Folder,display_percentage_after_sorting,Magic Number,The method contains a magic number: 2,424
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Complex Method,Cyclomatic complexity of the method is 29,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Long Method,The method has 202 lines of code.,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,Logical_part,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Nothing to Check"`"Message"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,48
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,60
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,60
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Complex Method,Cyclomatic complexity of the method is 10,113
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,113
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Complex Method,Cyclomatic complexity of the method is 10,182
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,182
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Nothing to Check"`"Message"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,255
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Complex Method,Cyclomatic complexity of the method is 12,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Empty catch clause,The method has an empty catch block.,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Magic Number,The method contains a magic number: 100,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Magic Number,The method contains a magic number: 60,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Magic Number,The method contains a magic number: 60,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Magic Number,The method contains a magic number: 100,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,single_file,Magic Number,The method contains a magic number: 2,285
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,multiple_files,Complex Method,Cyclomatic complexity of the method is 11,363
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,multiple_files,Magic Number,The method contains a magic number: 100,363
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,multiple_files,Magic Number,The method contains a magic number: 60,363
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,multiple_files,Magic Number,The method contains a magic number: 60,363
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,multiple_files,Magic Number,The method contains a magic number: 100,363
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,display_percentage_after_sorting,Long Statement,The length of the statement "result_textarea.append(FILENAME3[aa] + " matched " + matching_line_number[aa]+ " line and "+ df.format(result[aa])+ per+ " with "+ FILENAME4[aa]+ "\n\n");" is 154.,432
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,display_percentage_after_sorting,Magic Number,The method contains a magic number: 2,432
+SPL_Sep3,Duplicity_Checker_package.Code,Duplicity_Random_File,ok_button_sound,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Message"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,444
+SPL_Sep3,Duplicity_Checker_package.Code,file_read,fileRead,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"No File Selected"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 138.,7
+SPL_Sep3,Duplicity_Checker_package.Code,Frame_Container_Template,frame,Magic Number,The method contains a magic number: 350,9
+SPL_Sep3,Duplicity_Checker_package.Code,Frame_Container_Template,frame,Magic Number,The method contains a magic number: 25,9
+SPL_Sep3,Duplicity_Checker_package.Code,Frame_Container_Template,frame,Magic Number,The method contains a magic number: 650,9
+SPL_Sep3,Duplicity_Checker_package.Code,Frame_Container_Template,frame,Magic Number,The method contains a magic number: 680,9
+SPL_Sep3,Duplicity_Checker_package.Code,Frame_Container_Template,setContainer,Magic Number,The method contains a magic number: 255,14
+SPL_Sep3,Duplicity_Checker_package.Code,highlight_text,highlight,Complex Conditional,The conditional expression (texts.charAt(pos + pattern.length()) != ' ') && texts.charAt(pos + pattern.length()) != '`' && texts.charAt(pos + pattern.length()) != '-' && texts.charAt(pos + pattern.length()) != '.' && texts.charAt(pos + pattern.length()) != '"' is complex.,17
+SPL_Sep3,Duplicity_Checker_package.Code,highlight_text,highlight,Long Statement,The length of the statement "if ((texts.charAt(pos + pattern.length()) != ' ') && texts.charAt(pos + pattern.length()) != '`' && texts.charAt(pos + pattern.length()) != '-' && texts.charAt(pos + pattern.length()) != '.' && texts.charAt(pos + pattern.length()) != '"') {" is 240.,17
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Long Method,The method has 182 lines of code.,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"How do you want to check ?"`"Confirmation"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 174.,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 350,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 25,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 650,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 680,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 135,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 400,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 400,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 565,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 20,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 585,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 28,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 20,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 200,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 400,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 55,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 465,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 350,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 465,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 55,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 530,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 255,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 350,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,Home,Magic Number,The method contains a magic number: 530,18
+SPL_Sep3,Duplicity_Checker_package.Code,Home,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"How do you want to check ?"`"Confirmation"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 174.,104
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 5,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 6,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 623,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 630,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 28,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 73,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,setPanel,Magic Number,The method contains a magic number: 102,17
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,BackButton,Magic Number,The method contains a magic number: 28,25
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,BackButton,Magic Number,The method contains a magic number: 73,25
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,BackButton,Magic Number,The method contains a magic number: 102,25
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,BackButton,Magic Number,The method contains a magic number: 545,25
+SPL_Sep3,Duplicity_Checker_package.Code,Panel_BackButton_Template,BackButton,Magic Number,The method contains a magic number: 10,25
+SPL_Sep3,Duplicity_Checker_package.Code,Sorting_result,sort,Long Parameter List,The method has 5 parameters. ,11
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Complex Method,Cyclomatic complexity of the method is 14,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Empty catch clause,The method has an empty catch block.,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Long Method,The method has 140 lines of code.,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 28,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 73,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 102,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 40,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 19,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 28,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 73,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 102,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 482,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 575,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 28,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 73,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 102,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 40,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 575,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 255,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 16,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 40,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 60,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 540,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,Spell_Check,Magic Number,The method contains a magic number: 500,33
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"Select Format"`"Format Choice"`JOptionPane.YES_NO_CANCEL_OPTION`JOptionPane.QUESTION_MESSAGE`null`choices`defaultChoice);" is 162.,89
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,actionPerformed,Long Statement,The length of the statement "int n=JOptionPane.showOptionDialog(null`"There is no text to save"`"Warning"`JOptionPane.OK_OPTION`JOptionPane.NO_OPTION`null`options`options[0]);" is 146.,89
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,actionPerformed,Complex Method,Cyclomatic complexity of the method is 9,156
+SPL_Sep3,Duplicity_Checker_package.Code,Spell_Check,actionPerformed,Empty catch clause,The method has an empty catch block.,156
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,createGUI,Magic Number,The method contains a magic number: 350,25
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,createGUI,Magic Number,The method contains a magic number: 25,25
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,createGUI,Magic Number,The method contains a magic number: 650,25
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,createGUI,Magic Number,The method contains a magic number: 680,25
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addImage,Magic Number,The method contains a magic number: 80,35
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addImage,Magic Number,The method contains a magic number: 25,35
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addImage,Magic Number,The method contains a magic number: 550,35
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addImage,Magic Number,The method contains a magic number: 400,35
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addText,Magic Number,The method contains a magic number: 43,40
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addText,Magic Number,The method contains a magic number: 122,40
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addText,Magic Number,The method contains a magic number: 448,40
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addText,Magic Number,The method contains a magic number: 600,40
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addText,Magic Number,The method contains a magic number: 45,40
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addMessage,Magic Number,The method contains a magic number: 275,47
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addMessage,Magic Number,The method contains a magic number: 570,47
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addMessage,Magic Number,The method contains a magic number: 200,47
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addMessage,Magic Number,The method contains a magic number: 40,47
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addMessage,Magic Number,The method contains a magic number: 15,47
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addProgressBar,Magic Number,The method contains a magic number: 125,54
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addProgressBar,Magic Number,The method contains a magic number: 520,54
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addProgressBar,Magic Number,The method contains a magic number: 400,54
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,addProgressBar,Magic Number,The method contains a magic number: 28,54
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,add_developer_message,Magic Number,The method contains a magic number: 430,64
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,add_developer_message,Magic Number,The method contains a magic number: 650,64
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,add_developer_message,Magic Number,The method contains a magic number: 200,64
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,add_developer_message,Magic Number,The method contains a magic number: 25,64
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,add_developer_message,Magic Number,The method contains a magic number: 15,64
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,runningPBar,Magic Number,The method contains a magic number: 100,71
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,runningPBar,Magic Number,The method contains a magic number: 50,71
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,runningPBar,Magic Number,The method contains a magic number: 50,71
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,runningPBar,Magic Number,The method contains a magic number: 2,71
+SPL_Sep3,Duplicity_Checker_package.Code,SplashScreen,runningPBar,Magic Number,The method contains a magic number: 100,71
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Long Statement,The length of the statement "guidelines_area.append("\n" + " ** You can select only docx or pdf files in 'Duplicity Check' option." + "\n"+ " In other options you can read only Docx files."+ "\n\n");" is 170.,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Long Statement,The length of the statement "guidelines_area.append(" ** In Duplicity check User Interface` left textarea is for comparable" + "\n" + " files and right textarea is for comparing files. Which is/are "+ "\n"+ " compared with leftside textarea's text."+ "\n\n");" is 230.,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Long Statement,The length of the statement "guidelines_area.append(" ** If you want to select files freewill then click 'Choose Randomly' " + "\n" + " option in 'Duplicity Check' Button."+ "\n\n");" is 153.,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Long Statement,The length of the statement "guidelines_area.append(" ** If you want to select a folder then click 'Select Folder' option in " + "\n" + " 'Duplicity Check' Button."+ "\n\n");" is 145.,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Long Statement,The length of the statement "guidelines_area.append(" ** In 'Select folder' option` When you are selecting a folder from" + "\n" + " your PCs Directory you have to be alert that` this directory"+ "\n"+ " contain only one folder. You have to be careful about this."+ "\n\n");" is 245.,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Long Statement,The length of the statement "guidelines_area.append(" ** In 'Choose Randomly' option` you can choose one or multiple " + "\n" + " file by holding out ctrl button. If you want to select all files then"+ "\n"+ " you have to press ctrl + a ."+ "\n\n");" is 220.,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 30,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 50,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 55,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 535,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 40,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 255,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 16,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 50,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 98,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 535,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 500,20
+SPL_Sep3,Duplicity_Checker_package.Code,User_GuideLines,design,Magic Number,The method contains a magic number: 255,20
